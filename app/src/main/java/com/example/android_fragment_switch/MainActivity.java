@@ -36,6 +36,20 @@ public class MainActivity extends AppCompatActivity {
                 gantiFragment(R.id.tempat_fragment, new SatuFragment()); //silakan disesuaikan fragmentnya
             }
         });
+
+        btDua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gantiFragment(R.id.tempat_fragment, new DuaFragment()); //silakan disesuaikan fragmentnya
+            }
+        });
+
+        btTiga.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gantiFragment(R.id.tempat_fragment, new TigaFragment()); //silakan disesuaikan fragmentnya
+            }
+        });
     }
 
 }
