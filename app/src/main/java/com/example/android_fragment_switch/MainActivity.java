@@ -33,21 +33,21 @@ public class MainActivity extends AppCompatActivity {
         btSatu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gantiFragment(R.id.tempat_fragment, new SatuFragment()); //silakan disesuaikan fragmentnya
+                gantiFragment(R.id.tempat_fragment, new SatuFragment());
             }
         });
 
         btDua.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gantiFragment(R.id.tempat_fragment, new DuaFragment()); //silakan disesuaikan fragmentnya
+                gantiFragment(R.id.tempat_fragment, new DuaFragment());
             }
         });
 
         btTiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gantiFragment(R.id.tempat_fragment, new TigaFragment()); //silakan disesuaikan fragmentnya
+                gantiFragment(R.id.tempat_fragment, new TigaFragment());
             }
         });
     }
